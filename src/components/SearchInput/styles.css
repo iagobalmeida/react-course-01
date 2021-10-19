@@ -1,0 +1,26 @@
+input {
+    width: 100%;
+    height: 50px;
+    border: #ddd;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 20px;
+    color: #333;
+}
+
+input:focus {
+    outline: none;
+}
+
+input::-webkit-search-cancel-button{
+    -webkit-appearance: none;
+    height: 1em;
+    width: 1em;
+    border-radius: 50em;
+    background: url(https://pro.fontawesome.com/releases/v5.10.0/svgs/solid/times-circle.svg) no-repeat 50% 50%;
+    background-size: contain;
+    opacity: 0.5;
+    cursor: pointer;
+}
